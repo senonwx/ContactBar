@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SideBar">
+        <attr name="mRadius" format="dimension"/>
+        <attr name="mTextColor" format="color"/>
+        <attr name="mBgTextColor" format="color"/>
+        <attr name="mBgColor" format="color"/>
+        <attr name="mBgTextSize" format="dimension"/>
+        <attr name="mTextSize" format="dimension"/>
+    </declare-styleable>
+
+
+</resources>

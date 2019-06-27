@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_gravity="right"
+            android:onClick="change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="切换侧边栏"
+            android:textSize="15dp"
+            />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:divider="@null"/>
+
+        <TextView
+            android:background="@drawable/bg_toast"
+            android:id="@+id/tv_dialog"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="35dp"
+            android:visibility="gone" />
+
+        app:mTextSize="10dp"
+        app:mTextColor="#858c94"
+        app:mRadius="5dp"
+        app:mBgTextColor="#ffffff"
+        app:mBgTextSize="40dp"
+        app:mBgColor="#aa000000"
+        <com.senon.contactbar.SideBar
+            android:id="@+id/sideBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            />
+    </FrameLayout>
+
+</LinearLayout>
