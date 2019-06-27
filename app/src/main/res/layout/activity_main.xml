@@ -45,6 +45,12 @@
         app:mBgTextSize="40dp"
         app:mBgColor="#aa000000"
         <com.senon.contactbar.SideBar
+            app:mTextSize="10dp"
+            app:mTextColor="#858c94"
+            app:mRadius="5dp"
+            app:mBgTextColor="#ffffff"
+            app:mBgTextSize="40dp"
+            app:mBgColor="#aa000000"
             android:id="@+id/sideBar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
