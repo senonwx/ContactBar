@@ -1,6 +1,7 @@
 # ContactBar
 右边联系人滑动字母索引
 -------
+<img src="https://github.com/senonwx/ContactBar/blob/master/demo.gif" width="50%"><img/><br/>
 
 1.默认使用方法：   
 ```
