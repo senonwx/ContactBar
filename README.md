@@ -42,9 +42,14 @@ sideBar.setOnTouchingLetterChangedListener(new SideBar.OnTouchingLetterChangedLi
   android:textSize="35dp"
   android:visibility="gone" />
 ```
+  将该textview绑定到SideBar上
 ```
 sideBar.setTextView(tv_dialog);
 ```
 这样当索引被选中时，默认展示的是tv_dialog。</br>
+当SideBar集成在ViewPager里面使用时，若出现滑动Fragment时选中字体一直不消失的情况，添加如下代码解决滑动冲突：</br>
+```
+sideBar.ignoredViewPager(viewPager);;
+```
 #### 注意：设置了sideBar.setTextView()之后，不会展示SideBar的默认选中字体，需要自己定制展示Textview。
      
