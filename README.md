@@ -44,6 +44,6 @@ sideBar.setOnTouchingLetterChangedListener(new SideBar.OnTouchingLetterChangedLi
 ```
 sideBar.setTextView(tv_dialog);
 ```
-这样当索引被选中时，默认展示的是tv_dialog。
-#####注意：设置了sideBar.setTextView()之后，不会展示SideBar的默认选中字体，需要自己定制展示Textview。
+这样当索引被选中时，默认展示的是tv_dialog。</br>
+#### 注意：设置了sideBar.setTextView()之后，不会展示SideBar的默认选中字体，需要自己定制展示Textview。
      
